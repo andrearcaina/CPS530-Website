@@ -1,2 +1,2 @@
-# CPS530-Website
-All my labs for CPS530.
+# CPS530 Lab Assignments
+- All my labs for CPS530.
