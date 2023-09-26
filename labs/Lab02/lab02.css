@@ -1,0 +1,95 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(145, 180, 229);
+    color: black;
+    
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    text-align: left;
+}
+
+figure {
+    display: flex;
+    align-items: center;
+    max-width: 50%;
+}
+
+hr {
+    width: 50%;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+/* make footer look professional */
+footer {
+    background-color: rgb(145, 180, 229);
+    color: black;
+    padding: 10px;
+    margin: 0;
+}
+
+
+#nav-bar {
+    color: black;
+
+    padding: 10px;
+    margin: 0;
+
+    font-size: 30px;
+
+}
+
+#about-me {
+    text-align: justify;
+    font-size: 20px;
+}
+
+#profile {
+    border-radius: 15px;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+}
+
+#article {
+    width: 45%; 
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#interests {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.cols {
+    display: flex;
+}    
+
+.info-text {
+    text-align: justify;
+    margin-right: 50px;
+}
+
+.autobiography-text {
+    text-align: justify;
+    
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    
+    font-size: 16px;
+}
+
+.footer {
+    font-weight: bolder;
+    font-size: 11px;
+}
