@@ -1,0 +1,12 @@
+# Basis of Lab02
+- create a page using HTML tags and CSS or edit Lab01 with CSS
+  - must use header, main, nav, figcaption, figure, img, section, footer
+  - class
+  - id
+  - box model: margin, padding, border
+  - hover
+  - layout with float, grid, or flexbox
+  - use both absolute and relative units
+  - show and hide elements (display or visibility properties)
+  - layering (z-index)
+  - other css features are allowed 
