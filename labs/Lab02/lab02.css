@@ -4,6 +4,9 @@ body {
     color: black;
     
     text-align: center;
+
+    position: absolute;
+    visibility: visible;
 }
 
 a {
@@ -35,7 +38,6 @@ footer {
     margin: 0;
 }
 
-
 #nav-bar {
     color: black;
 
@@ -43,7 +45,11 @@ footer {
     margin: 0;
 
     font-size: 30px;
+}
 
+#nav-bar:hover {
+    background-color: rgb(3, 180, 229);
+    color: black;
 }
 
 #about-me {
@@ -51,11 +57,21 @@ footer {
     font-size: 20px;
 }
 
+
 #profile {
     border-radius: 15px;
     width: 250px;
     height: 250px;
     margin: 20px;
+}
+
+#background {
+    position: absolute;
+    border-radius: 15px;
+    left: 200px;
+    width: 785px;
+    height: 250px;
+    z-index: -1;
 }
 
 #article {
@@ -81,6 +97,7 @@ footer {
 
 .autobiography-text {
     text-align: justify;
+    position: relative;
     
     margin-right: 20px;
     margin-left: 20px;
@@ -90,6 +107,7 @@ footer {
 }
 
 .footer {
+    position: relative;
     font-weight: bolder;
     font-size: 11px;
 }
