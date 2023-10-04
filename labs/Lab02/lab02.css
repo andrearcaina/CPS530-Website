@@ -11,6 +11,7 @@ body {
 
 a {
     text-decoration: none;
+    z-index: 1;
 }
 
 li {
@@ -59,18 +60,13 @@ footer {
 
 
 #profile {
-    border-radius: 15px;
-    width: 250px;
-    height: 250px;
-    margin: 20px;
-}
-
-#background {
     position: absolute;
     border-radius: 15px;
-    left: 200px;
-    width: 785px;
-    height: 250px;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    top: 10%;
+    left: 16%;
     z-index: -1;
 }
 
