@@ -8,7 +8,7 @@
 - [Lab03](https://github.com/andrearcaina/CPS530-Website/tree/main/labs/Lab03)
 
 ## Frameworks 
-- Bootstrap5
+- Bootstrap5 (Lab03)
 
 ## Languages
 - HTML
