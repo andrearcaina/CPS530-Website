@@ -40,11 +40,13 @@ body {
 
 }
 .place a img {
+    max-height: 200px;
+    border-radius: 10px;
     transition: transform 0.3s; /* Add a smooth transition effect */
 }
 
 .place a img:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .facts-section {
