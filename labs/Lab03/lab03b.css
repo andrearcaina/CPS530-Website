@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('path-to-fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    
+    overflow-x: hidden;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.welcome-section {
+    background-image: url('welcome.jpg'); 
+    background-size: cover;
+    height: 100vh; 
+    
+    text-align: center;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.places-section {
+    background-image: url('places.jpg');
+    background-size: cover;
+    
+    color: white;
+
+}
+.place a img {
+    transition: transform 0.3s; /* Add a smooth transition effect */
+}
+
+.place a img:hover {
+    transform: scale(1.1);
+}
+
+.facts-section {
+    background-image: url('facts.jpg'); /* Add a background image URL */
+    background-size: cover;
+    background-position: center; /* Center the background image */
+    height: 100vh;
+    
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+}
+
+.facts-container {
+    text-align: left; 
+    max-width: 800px; 
+}
+
+.facts-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.facts-section li {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+
+.history-section {
+    background-color: rgb(153, 166, 161);
+    text-align: center;
+    padding: 20px;
+
+}
+
+.history-section h1 {
+    font-size: 28px;
+    margin: 20px 0;
+}
+
+.image-text img {
+    max-width: 40%;
+    border-radius: 15px;
+}
+
+.history-section .image-text p {
+    font-size: 16px;
+    font-weight: bolder;
+
+    line-height: 1.2;
+    flex-grow: 1;
+}
