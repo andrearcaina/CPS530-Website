@@ -4,6 +4,11 @@
     font-weight: 400;
 }
 
+
+* {
+    box-sizing: border-box;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -126,7 +131,7 @@ body {
     width: 100%;
     max-height: 250px;
     border-radius: 5px;
-    transition: transform 0.3s; /* Add a smooth transition effect */
+    transition: transform 0.3s; 
 }
 
 .place a img:hover {
@@ -134,9 +139,9 @@ body {
 }
 
 .facts-section {
-    background-image: url('facts.jpg'); /* Add a background image URL */
+    background-image: url('facts.jpg');
     background-size: cover;
-    background-position: center; /* Center the background image */
+    background-position: center;
     height: 100vh;
     
     text-align: left;
@@ -145,8 +150,8 @@ body {
     
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center the content horizontally */
-    align-items: center; /* Center the content vertically */
+    justify-content: center; 
+    align-items: center;
 }
 
 .facts-section ul {
@@ -185,66 +190,41 @@ body {
     flex-grow: 1;
 }
 
-@media screen and (max-width: 320px) {
-    .navbar {
-        height: 60px;
-    }
-
-    .navbar a {
-        padding: 10px 15px;
-        font-size: 14px;
-    }
-
-    .welcome-section h1 {
-        font-size: 20px;
-    }
-
-    .places-section h1 {
-        font-size: 20px;
-    }
-
-    .places-section p {
-        font-size: 14px;
-    }
-
-    .places-section .place {
-        width: 100%;
-    }
-
-    .facts-section h1 {
-        font-size: 20px;
-    }
-
-    .facts-section li {
-        font-size: 16px;
-    }
-
-    .history-section h1 {
-        font-size: 24px;
-    }
-
-    .image-text-container img {
-        max-width: 100%;
-    }
-
-    .history-section .image-text p {
-        font-size: 14px;
-    }
+[class*="col-"] {
+    float:left;
+    padding:15px;
 }
 
-@media screen and (min-width: 601px) and (max-width: 992px) {
-    .navbar a {
-        font-size: 16px;
-    }
+[class*="col-"] {
+    width: 100%;
 }
 
-@media screen and (min-width: 993px) {
-    .navbar {
-        height: 100px;
-    }
+@media only screen and (min-width: 768px) {
+    .col-1 { width: 16.67%; }
+    .col-2 { width: 33.33%; }
+    .col-3 { width: 50%; }
+    .col-4 { width: 66.67%; }
+    .col-5 { width: 83.33%; }
+    .col-6 { width: 100%; }
+}
 
-    .navbar a {
-        padding: 30px 20px;
-        font-size: 18px;
-    }
+@media only screen and (min-width: 1024px) {
+    .col-1 { width: 8.33%; }
+    .col-2 { width: 16.66%; }
+    .col-3 { width: 25%; }
+    .col-4 { width: 33.33%; }
+    .col-5 { width: 41.66%; }
+    .col-6 { width: 50%; }
+    .col-7 { width: 58.33%; }
+    .col-8 { width: 66.66%; }
+    .col-9 { width: 75%; }
+    .col-10 { width: 83.33%; }
+    .col-11 { width: 91.66%; }
+    .col-12 { width: 100%; }
+}
+
+.row::after {
+    content:"";
+    clear:both;
+    display:table;
 }

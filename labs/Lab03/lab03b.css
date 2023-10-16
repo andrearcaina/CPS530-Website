@@ -42,7 +42,7 @@ body {
 .place a img {
     max-height: 200px;
     border-radius: 10px;
-    transition: transform 0.3s; /* Add a smooth transition effect */
+    transition: transform 0.3s; 
 }
 
 .place a img:hover {
@@ -50,9 +50,9 @@ body {
 }
 
 .facts-section {
-    background-image: url('facts.jpg'); /* Add a background image URL */
+    background-image: url('facts.jpg'); 
     background-size: cover;
-    background-position: center; /* Center the background image */
+    background-position: center;
     height: 100vh;
     
     text-align: left;
@@ -61,8 +61,8 @@ body {
     
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center the content horizontally */
-    align-items: center; /* Center the content vertically */
+    justify-content: center; 
+    align-items: center; 
 }
 
 .facts-section h1 {
