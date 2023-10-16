@@ -65,9 +65,11 @@ body {
     align-items: center; /* Center the content vertically */
 }
 
-.facts-container {
-    text-align: left; 
-    max-width: 800px; 
+.facts-section h1 {
+    font-size: 28px;
+    font-weight: bold;
+    
+    margin: 20px 0;
 }
 
 .facts-section ul {

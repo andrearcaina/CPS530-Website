@@ -149,11 +149,6 @@ body {
     align-items: center; /* Center the content vertically */
 }
 
-.facts-container {
-    text-align: left; 
-    max-width: 800px; 
-}
-
 .facts-section ul {
     list-style: none;
     padding: 0;
