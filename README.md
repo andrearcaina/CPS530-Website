@@ -6,6 +6,7 @@
 - [Lab01](https://github.com/andrearcaina/CPS530-Website/tree/main/labs/Lab01)
 - [Lab02](https://github.com/andrearcaina/CPS530-Website/tree/main/labs/Lab02)
 - [Lab03](https://github.com/andrearcaina/CPS530-Website/tree/main/labs/Lab03)
+- [Lab03](https://github.com/andrearcaina/CPS530-Website/tree/main/labs/Lab04)
 
 ## Frameworks 
 - Bootstrap5 (Lab03)
@@ -13,3 +14,4 @@
 ## Languages
 - HTML
 - CSS
+- JS
