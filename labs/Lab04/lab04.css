@@ -1,0 +1,91 @@
+* {
+    font-family:'Roboto Mono', monospace;
+    line-height: 1.5;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    
+    text-align: center;
+
+    background-color: rgb(138, 211, 138);
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 550;
+}
+
+form, p {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.input, #count-textarea {
+    background-color: #f1f1f1;
+    width: 300px;
+
+    border: none;
+    border-radius: 20px;
+    
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#output {
+    font-size: 24px;
+    text-align: center;
+}
+
+#submit-button, #create-bookmark-button {
+    background-color: #4CAF50;
+    color: white;
+
+    border: none;
+    padding: 10px 10px;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+    font-weight: bold;
+    font-size: 20px;
+    
+    cursor: pointer;
+
+    border-radius: 5px;
+    box-shadow: 0 5px 0 #3e8e41;
+
+    transition: 0.2s ease-in-out;
+}
+
+#submit-button:hover, #create-bookmark-button:hover {
+    box-shadow: 0 9px 0 #3e8e41;
+    transform: translateY(-4px);
+}
+
+#submit-button:active, #create-bookmark-button:active {
+    box-shadow: 0 4px 0 #3e8e41;
+    transform: translateY(1px);
+}
+
+#bookmarkList {
+    margin-top: 1.5%;
+}
+
+.secured-icon {
+    background-color: rgb(42, 197, 42);
+}
+
+.unsecured-icon {
+    background-color: rgb(240, 49, 49);
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab04</title>
+
+    <link rel="stylesheet" href="lab04.css" />
+    <script src="lab04.js"></script>
+</head>
+<body>
+    <h1>Problem 1: Information Form</h1>
+    <form id="userForm">
+        Name:
+        <input 
+            class="input" 
+            type="text" 
+            id="name" 
+            name="name"
+            placeholder="Ex: Andre"
+            onfocus="this.placeholder=''"
+            onblur="this.placeholder='Ex: Andre'" 
+        /><br/><br/>
+
+        Address:
+        <input
+            class="input"
+            type="text"
+            id="address"
+            name="address"
+            placeholder="Ex: 1234 Main St."
+            onfocus="this.placeholder=''"
+            onblur="this.placeholder='Ex: 1234 Main St.'"
+        /><br/><br/>
+
+        Phone #:
+        <input
+            class="input"
+            type="text"
+            id="phone"
+            name="phone"
+            placeholder="Ex: (416) 555-5555"
+            onfocus="this.placeholder=''"
+            onblur="this.placeholder='Ex: (416) 555-5555'"
+        /><br/><br/>
+
+        <button id="submit-button" type="button" onclick="validateForm()">
+            Submit
+        </button>
+    </form>
+
+    <div id="output"></div>
+
+    <h1>Problem 2: Char/Letter Count</h1>
+    <textarea 
+        id="count-textarea" 
+        rows="4" 
+        cols="50" 
+        oninput="countText();"
+    ></textarea>
+    <p>Character Count: <span id="charCount">0</span></p>
+    <p>Letter Count: <span id="letterCount">0</span></p>
+
+    <h1>Problem 3: List of Bookmarks</h1>
+    <!-- add a button to create a bookmark list -->
+    <button id="create-bookmark-button" onclick="createBookmarkList()">
+        Create Bookmark List
+    </button>
+    <div id="bookmarkList"></div>
+
+    <footer id="footer">
+        <p>
+            <a href="../index.html"> Home</a> |
+            <a href="https://www.linkedin.com/in/andre-arcaina/" target="_blank"> LinkedIn</a> |
+            <a href="https://github.com/andrearcaina/" target="_blank"> GitHub</a>
+        </p>
+    </footer>
+</body>
+</html>
