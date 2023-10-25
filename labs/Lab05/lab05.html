@@ -14,16 +14,16 @@
     <script src="lab05.js"></script>
 </head>
 <body class="bg-dark">
-    <h1 class="text-center text-white display-4">Potato Head Creator</h1>
+    <h1 class="text-center text-white display-4 mt-4">Potato Head Creator</h1>
 
     <div class="container mt-3">
         <div class="row justify-content-center">
             <div id="images" class="col-12 col-md-10 col-lg-6 border rounded">
-                <img class="draggable" src="body.png" alt="Body"/>
-                <img class="draggable" src="eyes.png" alt="Eyes"/>
-                <img class="draggable" src="hat.png" alt="Hat"/>
-                <img class="draggable" src="mouth.png" alt="Mouth"/>
-                <img class="draggable" src="nose.png" alt="Nose"/>
+                <img class="draggable img-fluid" src="body.png" alt="Body"/>
+                <img class="draggable img-fluid" src="eyes.png" alt="Eyes"/>
+                <img class="draggable img-fluid" src="hat.png" alt="Hat"/>
+                <img class="draggable img-fluid" src="mouth.png" alt="Mouth"/>
+                <img class="draggable img-fluid" src="nose.png" alt="Nose"/>
             </div>
 
             <div id="instructions" class="text-white mt-2 p-3">
@@ -37,5 +37,13 @@
             </div>            
         </div>
     </div>
+
+    <h1 class="text-center text-white display-4">Image Hover Effect</h1>
+
+    <div id="one-image" class="row justify-content-center">
+        <img id="animate-image" class="img-fluid rounded mx-auto d-block" src="jquery.png" alt="animate-image"/>
+        <span id="revert-icon">🤓</span>    
+    </div>
+
 </body>
 </html>

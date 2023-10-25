@@ -6,9 +6,6 @@ $(document).ready(function() {
     images.on('mousedown', '.draggable', function(e) {
         isDragging = true;
         currentElement = $(this);
-
-        console.log('mousedown: ' + currentElement.attr('id'));
-
         // Calculate the offset of the mouse pointer relative to the top-left corner of the currentElement
         let offset = currentElement.offset();
         // Calculate the difference between the mouse pointer and the top-left corner of the currentElement
@@ -66,6 +63,59 @@ $(document).ready(function() {
         if (downloaded.innerHTML === '') {
             downloaded.innerHTML = 'Screenshot taken! Check your downloads folder.';
             downloaded.classList.add('mt-3');
+        }
+    });
+
+    let hoverEffect = false;
+
+    // Enlarge the image on hover and add a button to revert the size
+    $('#animate-image').hover(function() {
+        if (!hoverEffect) {
+            hoverEffect = true;
+
+            // Store the original image dimensions and position of the image
+            const originalWidth = $(this).width();
+            const originalHeight = $(this).height();
+            const originalTop = $(this).offset().top;
+            const originalLeft = $(this).offset().left;
+
+            // Enlarge the image to the size of the entire screen
+            $(this).animate({
+                width: '100vw',
+                height: '100vh',
+                top: 0,
+            }, 'slow');
+
+            // Show the revert icon
+            $('#revert-icon').show().click(function() {
+                $('#animate-image').animate({
+                    width: originalWidth,
+                    height: originalHeight,
+                    top: originalTop,
+                    left: originalLeft,
+                }, 'slow');
+
+                // Hide the revert icon
+                $('#revert-icon').hide();
+
+                let OT = $('#animate-image').offset().top;
+                let OL = $('#animate-image').offset().left;
+
+                console.log(OT, OL);
+                console.log(originalTop, originalLeft);
+
+
+                /* 
+                    do this later 
+                    trying to make it so that the user can hover
+                    it more than once
+                */
+                
+                if (OT === originalTop && OL === originalLeft) {
+                    hoverEffect = false;
+                    console.log(hoverEffect);
+                }
+            });
         }
     });
 });

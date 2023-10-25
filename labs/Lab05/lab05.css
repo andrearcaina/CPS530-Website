@@ -1,8 +1,28 @@
+body {
+    overflow-x: hidden;
+}
+
 #images {
     background-color: rgb(205, 203, 203);
     height: 25vh;
 }
 
 .draggable:hover {
+    cursor: pointer;
+}
+
+#animate-image {
+    position: absolute; /* needed for animation */
+    border: 5px solid black;
+    height: 25vh;
+}
+
+#revert-icon {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    text-align: center;
+
+    display: none;
     cursor: pointer;
 }
