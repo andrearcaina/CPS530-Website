@@ -68,53 +68,38 @@ $(document).ready(function() {
 
     let hoverEffect = false;
 
-    // Enlarge the image on hover and add a button to revert the size
+    // Store the original width, height, top and left of jQuery.png
+    const originalWidth = $("#animate-image").width();
+    const originalHeight = $("#animate-image").height();
+    const originalTop = $("#animate-image").offset().top;
+    const originalLeft = $("#animate-image").offset().left;
+
     $('#animate-image').hover(function() {
         if (!hoverEffect) {
             hoverEffect = true;
 
-            // Store the original image dimensions and position of the image
-            const originalWidth = $(this).width();
-            const originalHeight = $(this).height();
-            const originalTop = $(this).offset().top;
-            const originalLeft = $(this).offset().left;
+            console.log(originalWidth, originalHeight, originalTop, originalLeft);
 
             // Enlarge the image to the size of the entire screen
             $(this).animate({
                 width: '100vw',
                 height: '100vh',
                 top: 0,
+                left: 0,
             }, 'slow');
 
-            // Show the revert icon
+            // Show the revert icon and add a click function
             $('#revert-icon').show().click(function() {
                 $('#animate-image').animate({
                     width: originalWidth,
                     height: originalHeight,
                     top: originalTop,
                     left: originalLeft,
-                }, 'slow');
-
-                // Hide the revert icon
-                $('#revert-icon').hide();
-
-                let OT = $('#animate-image').offset().top;
-                let OL = $('#animate-image').offset().left;
-
-                console.log(OT, OL);
-                console.log(originalTop, originalLeft);
-
-
-                /* 
-                    do this later 
-                    trying to make it so that the user can hover
-                    it more than once
-                */
-                
-                if (OT === originalTop && OL === originalLeft) {
+                }, 'slow', function() {
                     hoverEffect = false;
-                    console.log(hoverEffect);
-                }
+                });
+    
+                $('#revert-icon').hide();
             });
         }
     });
