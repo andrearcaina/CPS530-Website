@@ -9,9 +9,12 @@
 - [Lab04](https://github.com/andrearcaina/CPS530-Website/tree/main/labs/Lab04)
 - [Lab05](https://github.com/andrearcaina/CPS530-Website/tree/main/labs/Lab05)
 
-## Frameworks 
+## Frameworks
 - Bootstrap5 (Lab03, Lab05)
+
+## Libraries
 - JQuery (Lab05)
+- html2canvas (Lab05)
 
 ## Languages
 - HTML
