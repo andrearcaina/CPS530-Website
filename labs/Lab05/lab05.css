@@ -1,0 +1,8 @@
+#images {
+    background-color: rgb(205, 203, 203);
+    height: 25vh;
+}
+
+.draggable:hover {
+    cursor: pointer;
+}
