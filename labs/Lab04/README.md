@@ -1,4 +1,4 @@
-# Basis of Lab03
+# Basis of Lab04
 - use vanilla js
 ## Problem 1
 ---
