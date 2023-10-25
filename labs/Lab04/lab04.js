@@ -48,7 +48,7 @@ function createBookmarkList() {
     const bookmarkList = document.getElementById("bookmarkList");
     const bookmarks = [
         { link: "https://www.youtube.com/", secure: true },
-        { link: "http://example.com/", secure: false }
+        { link: "http://icio.us/", secure: false }
     ];
     
     if (bookmarkList.innerHTML === "") {
