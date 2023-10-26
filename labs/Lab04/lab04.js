@@ -2,7 +2,7 @@ function validateForm() {
     const name = document.getElementById("name").value;
     const address = document.getElementById("address").value;
     const phone = document.getElementById("phone").value;
-    const NameFormat = /^[A-Za-z]+[A-Za-z]+$/;
+    const NameFormat = /[A-Za-z\s]+$/;
     const PhoneFormat = /^\(\d{3}\) \d{3}-\d{4}$/;
 
     if (phone.match(PhoneFormat) && !name.match(NameFormat)) {
