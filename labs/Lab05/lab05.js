@@ -19,7 +19,9 @@ $(document).ready(function() {
             canvas.remove();
         });
 
+        
         const downloaded = document.getElementById('downloaded-text');
+
 
         if (downloaded.innerHTML === '') {
             downloaded.innerHTML = 'Screenshot taken! Check your downloads folder.';
@@ -30,10 +32,10 @@ $(document).ready(function() {
     let hoverEffect = false;
 
     // Store the original width, height, top and left of jQuery.png
-    const originalWidth = $("#animate-image").width();
-    const originalHeight = $("#animate-image").height();
-    const originalTop = $("#animate-image").offset().top;
-    const originalLeft = $("#animate-image").offset().left;
+    const originalWidth = $('#animate-image').width();
+    const originalHeight = $('#animate-image').height();
+    const originalTop = $('#animate-image').offset().top;
+    const originalLeft = $('#animate-image').offset().left;
 
     $('#animate-image').hover(function() {
         if (!hoverEffect) {
