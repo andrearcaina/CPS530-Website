@@ -18,10 +18,8 @@ $(document).ready(function() {
             
             canvas.remove();
         });
-
         
         const downloaded = document.getElementById('downloaded-text');
-
 
         if (downloaded.innerHTML === '') {
             downloaded.innerHTML = 'Screenshot taken! Check your downloads folder.';
