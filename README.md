@@ -8,9 +8,10 @@
 - [Lab03](https://github.com/andrearcaina/CPS530-Website/tree/main/labs/Lab03)
 - [Lab04](https://github.com/andrearcaina/CPS530-Website/tree/main/labs/Lab04)
 - [Lab05](https://github.com/andrearcaina/CPS530-Website/tree/main/labs/Lab05)
+- [Lab06](https://github.com/andrearcaina/CPS530-Website/tree/main/labs/Lab06)
 
 ## Frameworks
-- Bootstrap5 (Lab03, Lab05)
+- Bootstrap5 (Lab03, Lab05, Lab06)
 
 ## Libraries
 - JQuery (Lab05)
