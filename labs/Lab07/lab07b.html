@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab07b</title>
+
+    <link rel="stylesheet" type="text/css" href="lab07b.css">
+</head>
+<body>
+    <form action="../cgi-bin/lab07b.cgi" method="post" enctype="multipart/form-data">
+        <h2>Customer Registration</h2>
+        <label for="First Name">First Name:</label>
+        <input type="text" id="First Name" name="First Name" required>
+        
+        <label for="Last Name">Last Name:</label>
+        <input type="text" id="Last Name" name="Last Name" required>
+        
+        <label for="Street Name">Street Name:</label>
+        <input type="text" id="Street Name" name="Street Name" required>
+        
+        <label for="City">City:</label>
+        <input type="text" id="City" name="City" required>
+        
+        <label for="Postal Code">Postal Code:</label>
+        <input type="text" id="Postal Code" name="Postal Code" required>
+        
+        <label for="Province">Province:</label>
+        <select id="Province" name="Province" required>
+            <option value="">Select a province</option>
+            <option value="Alberta">Alberta</option>
+            <option value="British Columbia">British Columbia</option>
+            <option value="Manitoba">Manitoba</option>
+            <option value="New Brunswick">New Brunswick</option>
+            <option value="Newfoundland and Labrador">Newfoundland and Labrador</option>
+            <option value="Nova Scotia">Nova Scotia</option>
+            <option value="Northwest Territories">Northwest Territories</option>
+            <option value="Nunavut">Nunavut</option>
+            <option value="Ontario">Ontario</option>
+            <option value="Prince Edward Island">Prince Edward Island</option>
+            <option value="Quebec">Quebec</option>
+            <option value="Saskatchewan">Saskatchewan</option>
+            <option value="Yukon">Yukon</option>
+        </select>
+        
+        <label for="Phone Number">Phone Number:</label>
+        <input type="tel" id="Phone Number" name="Phone Number" required>
+        
+        <label for="Email">Email Address:</label>
+        <input type="Email" id="Email" name="Email" required>
+        
+        <label for="Photo">Photograph:</label>
+        <input type="file" id="Photo" name="Photo" accept="image/*" required>
+        
+        <input type="submit" value="Submit">
+    </form>
+
+    <p> 
+        <a href="../index.html"> Go back to home</a> 
+    </p>
+</body>
+</html>
