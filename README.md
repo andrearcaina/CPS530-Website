@@ -21,3 +21,4 @@
 - HTML
 - CSS
 - JS
+- Perl
