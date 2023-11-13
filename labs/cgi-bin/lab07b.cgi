@@ -100,6 +100,7 @@ print $validPostalCode ? $postalCode : "<span class='error'>$postalCode = Invali
 print "</li>";
 
 print "<li><strong>Province:</strong> $province</li>";
+
 print "<li><strong>Phone Number:</strong> ";
 print $validPhoneNumber ? $phoneNumber : "<span class='error'>$phoneNumber = Invalid format. Correct = 4164053838</span>";
 print "</li>";
@@ -109,11 +110,8 @@ print $validEmail ? $email : "<span class='error'>$email = Invalid format, Corre
 print "</li>";
 
 print "<li><strong>Photograph:</strong> ";
-if ($validPhoto) {
-    print "<img src='uploads/$photo' alt='/uploads/$photo'>";
-} else {
-    print "<span class='error'>Invalid file format</span>";
-}
+print $validPhoto ? "<img src='uploads/$photo' alt='/uploads/$photo'>" : "<span class='error'>Invalid file format</span>";
+
 print "</li>";
 
 print "</ul>";
