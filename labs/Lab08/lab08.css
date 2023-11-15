@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    
+    overflow-x: hidden;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    position: relative;
+    
+    width: 100vw;
+    height: 100vh;
+
+    text-align: center;
+}
+
+.morning { background-image: url('imgs/morning.jpg'); }
+.afternoon { background-image: url('imgs/afternoon.jpg'); }
+.evening { background-image: url('imgs/evening.jpg'); }
+.night { background-image: url('imgs/night.jpg'); }
+.math { background-image: url('imgs/math.jpg'); }
+.halloween { background-image: url('imgs/halloweenie.jpg'); }
+
+.morning, .afternoon, .evening, .night { color: white; }
+
+.morning, .afternoon, .evening, .night, .math, .halloween {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.greeting {
+    font-size: 2rem;
+}
+
+#php2 {
+    background-color: grey;
+}
+
+form, #multiplication {
+    max-width: 600px;
+    
+    margin: 20px auto;
+    padding: 20px;
+    
+    background-color: #fff;
+    
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    border-radius: 4px;
+    
+    margin: 10px 0 5px;
+}
+
+input, select {
+    width: 100%;
+    
+    padding: 8px;
+    margin: 5px 0;
+    
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, td {
+    border: 1px solid #ddd;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+.error {
+    font-size: 1.5rem;
+}
+
+.return {
+    display: block;
+    margin-top: 20px;
+    
+    text-align: center;
+}
+
+#visit-counter {
+    position: fixed;
+    
+    bottom: 10px;
+    right: 10px;
+    
+    background-color: rgba(200, 255, 200, 0.8);
+    
+    padding: 10px;
+    border-radius: 5px;
+    
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#halloween-img {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    opacity: 0.8;
+
+    max-width: 200px;
+    max-height: 200px;
+    
+    display: block;
+    margin: auto;
+}
+
+a { 
+    color: white; 
+    transition: 0.3s ease-in-out;
+}
+
+a:hover { color: #4caf50; }

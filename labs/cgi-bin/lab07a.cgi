@@ -7,7 +7,23 @@ print header;
 
 print start_html(
 	-title => 'Lab07a',
-	-style => {'src' => 'lab07a.css'},
+	-style => {
+		-type => 'text/css',
+        	-code => '
+			@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+			body {
+				font-family: "Roboto", sans-serif;
+    	
+				text-align: center;    	
+				margin-top: 100px;
+    				color: #1e70bf;
+			}
+
+			h1 {
+				font-size: 10rem;
+			}'
+	},
 );
 
 print "<h1>This is my first Perl program.</h1>";
