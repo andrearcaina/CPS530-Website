@@ -1,5 +1,6 @@
 # CPS530 Website
-- This is a progressive website with all of my labs Web Systems Development.
+- This is a progressive website with all of my labs for Web Systems Development.
+- Touches the basics of web development and goes through a variety of languages.
 - For more information, check this link: [CPS530](https://www.torontomu.ca/calendar/2023-2024/courses/computer-science/CPS/530/).
 
 ## Source Code
