@@ -31,10 +31,10 @@ function getGreeting() {
 function hitCounter() {
     if (!isset($_COOKIE["hitCounter"])) {
         $counter = 1;
-        setcookie("hitCounter", $counter, time() + (86400 * 30), "/");
+        setcookie("hitCounter", $counter);
     } else {
         $counter = $_COOKIE["hitCounter"] + 1;
-        setcookie("hitCounter", $counter, time() + (86400 * 30), "/");
+        setcookie("hitCounter", $counter);
     }
 
     return $counter;
