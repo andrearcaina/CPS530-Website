@@ -86,7 +86,7 @@ $halloween = getHalloween();
 
     <section>
         <div class="math">
-            <form action="lab08b.php" method="post">
+            <form action="lab08b.php" target="_blank" method="post">
                 <h2> Problem 2 </h2>
                 
                 <label for="num1">Enter the first number (between 3 and 12):</label>
