@@ -7,7 +7,7 @@ function getTime() {
         return 'morning';
     } elseif ($currentTime >= '12:00:00' && $currentTime < '17:00:00') {
         return 'afternoon';
-    } elseif ($currentTime >= '17:00:00' && $currentTime < '20:00:00') {
+    } elseif ($currentTime >= '17:00:00' && $currentTime < '21:00:00') {
         return 'evening';
     } else {
         return 'night';
