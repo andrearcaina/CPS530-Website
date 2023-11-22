@@ -12,6 +12,7 @@
 - [Lab06](https://github.com/andrearcaina/CPS530-Website/tree/main/labs/Lab06): SVG Polygons and Flags
 - [Lab07](https://github.com/andrearcaina/CPS530-Website/tree/main/labs/Lab07): Perl and CGI
 - [Lab08](https://github.com/andrearcaina/CPS530-Website/tree/main/labs/Lab08): PHP
+- [Lab09](https://github.com/andrearcaina/CPS530-Website/tree/main/labs/Lab09): PHP & mySQL
 
 ## Frameworks
 - Bootstrap5 (Lab03, Lab05, Lab06)
@@ -26,3 +27,4 @@
 - JS
 - Perl
 - PHP
+- mySQL
