@@ -13,9 +13,11 @@
 - [Lab07](https://github.com/andrearcaina/CPS530-Website/tree/main/labs/Lab07): Perl and CGI
 - [Lab08](https://github.com/andrearcaina/CPS530-Website/tree/main/labs/Lab08): PHP
 - [Lab09](https://github.com/andrearcaina/CPS530-Website/tree/main/labs/Lab09): PHP & mySQL
+- [Lab10](https://github.com/andrearcaina/CPS530-Website/tree/main/labs/Lab10): ASP, Python, Ruby and VUe
 
 ## Frameworks
 - Bootstrap5 (Lab03, Lab05, Lab06)
+- Vue.js (Lab10)
 
 ## Libraries
 - JQuery (Lab05, Lab08)
@@ -28,3 +30,6 @@
 - Perl
 - PHP
 - mySQL
+- ASP
+- Ruby
+- Python
