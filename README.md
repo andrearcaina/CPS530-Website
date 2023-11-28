@@ -13,7 +13,8 @@
 - [Lab07](https://github.com/andrearcaina/CPS530-Website/tree/main/labs/Lab07): Perl and CGI
 - [Lab08](https://github.com/andrearcaina/CPS530-Website/tree/main/labs/Lab08): PHP
 - [Lab09](https://github.com/andrearcaina/CPS530-Website/tree/main/labs/Lab09): PHP & mySQL
-- [Lab10](https://github.com/andrearcaina/CPS530-Website/tree/main/labs/Lab10): ASP, Python, Ruby and VUe
+- [Lab10](https://github.com/andrearcaina/CPS530-Website/tree/main/labs/Lab10): ASP, Python, Ruby and Vue
+  - Lab10 Problem 3 will be hosted on Github Pages in another repository: 
 
 ## Frameworks
 - Bootstrap5 (Lab03, Lab05, Lab06)
