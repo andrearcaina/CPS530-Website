@@ -33,7 +33,7 @@ if ($subject == 'Mannequins') {
 } else if ($subject == 'Leaning Tower') {
     $caption = 'Are we tilted, or is it falling?';
 } else if ($subject == 'Colosseum') {
-    $caption = 'WE ARE SPA- wait wrong place';
+    $caption = 'WE ARE SPAR- wait wrong place';
 } else if ($subject == 'Trevi Fountain') {
     $caption = 'Wow. This place was crowded.';
 } else if ($subject == 'Painting') {
@@ -44,6 +44,8 @@ if ($subject == 'Mannequins') {
     $caption = 'Venice is stunning!';
 } else if ($subject == 'BBQ Food') {
     $caption = 'BBQ with the fam!';
+} else if ($subject == 'PIRATE!') {
+    $caption = 'AHOY MATEY ITs a ME MARIO';
 } else {
     $caption = $subject;
 }
@@ -70,7 +72,7 @@ mysqli_close($connect);
     <p class='caption'>Total Images in Database: <?php echo $totalImages; ?></p>
 
     <div style="text-align: center;">
-        <p><a href="lab09d.php">Click here to go back to beginning form</a></p>
+        <p><a href="lab09a.php">Click here to go back to beginning form</a></p>
         <p><a href="https://www.cs.ryerson.ca/~aarcaina/">Click here to go back to home</a></p>
     </div>
 </body>

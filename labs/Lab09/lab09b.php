@@ -55,7 +55,7 @@ mysqli_close($connect);
     <?php echo $table; ?>
 
     <div style="text-align: center;">
-        <p><a href="lab09.php">Click here to go back to beginning form</a></p>
+        <p><a href="lab09a.php">Click here to go back to beginning form</a></p>
         <p><a href="lab09c.php">Click here to go to see Ontario (Lab09c)</a></p>
     </div>
 </body>

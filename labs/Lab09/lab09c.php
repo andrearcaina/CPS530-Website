@@ -53,7 +53,7 @@ mysqli_close($connect);
     </div>
 
     <div style="text-align: center;">
-        <p><a href="lab09.php">Click here to go back to beginning form</a></p>
+        <p><a href="lab09a.php">Click here to go back to beginning form</a></p>
         <p><a href="lab09d.php">Click here to go to another form (Lab09d)</a></p>
     </div>
 </body>
