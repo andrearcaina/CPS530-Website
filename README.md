@@ -13,6 +13,7 @@
 - [Lab07](https://github.com/andrearcaina/CPS530-Website/tree/main/labs/Lab07): Perl and CGI
 - [Lab08](https://github.com/andrearcaina/CPS530-Website/tree/main/labs/Lab08): PHP
 - [Lab09](https://github.com/andrearcaina/CPS530-Website/tree/main/labs/Lab09): PHP & mySQL
+  - Lab09 needs a VPN to bypass (I use a Student VPN by TMU called OpenVPN)
 - [Lab10](https://github.com/andrearcaina/CPS530-Website/tree/main/labs/Lab10): ASP, Python, Ruby and Vue
   - Lab10 Problem 3 will be hosted on Github Pages in another repository: [Quizzard](https://github.com/andrearcaina/Quizzard)
 
