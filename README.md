@@ -31,7 +31,7 @@
 - JS
 - Perl
 - PHP
-- mySQL
+- SQL (mySQL)
 - ASP
 - Ruby
-- Python
+- Python2
